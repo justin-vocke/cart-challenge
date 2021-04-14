@@ -1,12 +1,22 @@
-
+import React from 'react'
 import './App.css';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import Cart from './Components/Cart';
+import Checkout from './Components/Checkout';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      
+    <div>
+      <Router>
+        <Switch>
+          <Route exact path='/cart' component={Cart} />
+          <Route exact path='/checkout' component={Checkout} />
+        </Switch>
+      </Router>
+   
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,0 +1,14 @@
+.cart-header-icon {
+  margin: 10px 0;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.shopping-btn {
+  margin: 10px 0;
+}
+.cart-icon {
+  padding-bottom: 2px;
+  padding-right: 5px;
+}
