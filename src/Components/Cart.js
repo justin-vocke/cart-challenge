@@ -104,15 +104,18 @@ const Cart = () => {
                     <CardFooter>
                         <Row>
                             <Col xs="9">
-                                <h4 class="text-right">Total <strong>{total}</strong></h4>
+                                <h4 class="text-right">Total <strong>{total.toFixed(2)}</strong></h4>
                             </Col>
                             <Col>
                             <Link to={{
-  pathname: '/checkout',
-  state: {
-    total: total
-  }
-}}><Button size="sm" color="primary" block>Checkout</Button></Link>
+                                pathname: '/checkout',
+                                state: {
+                                    total: total
+                                        }
+                                    }}>
+                                <Button size="sm" color="primary" block>Checkout
+                                </Button>
+                            </Link>
                                 
                             </Col>
                         </Row>
