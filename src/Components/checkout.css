@@ -1,0 +1,51 @@
+.checkout-header {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.badge.float-right {
+  background-color: #fff;
+  color: #428bca;
+  margin: auto 5px;
+}
+
+#payment {
+  color: #fff;
+  margin-left: auto 5px;
+  padding-left: 10px;
+}
+#payment:hover {
+  text-decoration: none;
+}
+#payment-container {
+  background-color: #428bca;
+  margin: 20px 0;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+#payment-button {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+  margin: 20px 0;
+  padding: 10px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+#payment-link {
+  color: #fff;
+
+  margin-left: auto 5px;
+  padding-left: 10px;
+}
+#payment-link:hover {
+  text-decoration: none;
+}
